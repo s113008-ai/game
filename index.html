@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>記憶網格 (Memory Grid)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div id="game-container">
+        <h1>記憶網格</h1>
+        <div id="stats">
+            <p>嘗試次數: <span id="moves">0</span></p>
+        </div>
+        <div id="game-board"></div>
+        <div id="win-message" class="hidden">
+            <h2>恭喜！</h2>
+            <p>你完成了遊戲！</p>
+            <button id="restart-button">重新開始</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
